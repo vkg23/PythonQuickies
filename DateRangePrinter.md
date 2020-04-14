@@ -48,10 +48,10 @@ get_range_date(input)
 > Generate FileNames(.json) who has mmddyy format for each day  . 
 
 ```
- def get_array_files(arrayid,inputdate):
+ def get_array_files(fprefix,inputdate):
     for i in get_range_date(inputdate):
         day_str = i.strftime('%d%m%y')
-        print(f'{arrayid}_{day_str}.json')
+        print(f'{fprefix}_{day_str}.json')
 
 
 get_array_files('FilePrefix','290320')
