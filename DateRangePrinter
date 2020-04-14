@@ -1,4 +1,4 @@
-# How to Generate Date's between start date & today. 
+> # How to Generate Date's between start date & today. 
 from datetime import datetime, timedelta 
 
 def get_range_date(inputdate):
@@ -20,7 +20,7 @@ def get_range_date(inputdate):
 input = '290320' #ddmmyy format 
 get_range_date(input)
 
-#Result 
+> #Result 
 [datetime.datetime(2020, 3, 29, 0, 0),
  datetime.datetime(2020, 3, 30, 0, 0),
  datetime.datetime(2020, 3, 31, 0, 0),
@@ -38,8 +38,8 @@ get_range_date(input)
  datetime.datetime(2020, 4, 12, 0, 0),
  datetime.datetime(2020, 4, 13, 0, 0)]
  
- #Re-using this dateRange generator function for practical use's. 
- #Generate FileNames(.json) who has ddmmyy format for each day  . 
+ > #Re-using this dateRange generator function for practical use's. 
+ > #Generate FileNames(.json) who has ddmmyy format for each day  . 
  
  def get_array_files(arrayid,inputdate):
     for i in get_range_date(inputdate):
