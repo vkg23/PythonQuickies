@@ -1,4 +1,4 @@
-> # How to Generate Date's between start date & today. 
+######How to Generate Date's between start date & today. 
 from datetime import datetime, timedelta 
 
 def get_range_date(inputdate):
