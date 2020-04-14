@@ -45,7 +45,7 @@ get_range_date(input)
  ```
  
 ## Re-using this dateRange generator function for practical use's. 
-> Generate FileNames(.json) who has ddmmyy format for each day  . 
+> Generate FileNames(.json) who has mmddyy format for each day  . 
 
 ```
  def get_array_files(arrayid,inputdate):
